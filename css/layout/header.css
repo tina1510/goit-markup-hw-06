@@ -37,12 +37,12 @@
     padding-bottom: 16px;
   }
   .button-nav {
-    display: flex;
+    display: block;
     border: none;
     background-color: transparent;
     padding: 0;
-    line-height: 0;
-    margin: 0 auto;
+    width: 24px;
+    height: 24px;
   }
   .nav-menu-svg {
     fill: #2f2f37;

@@ -1,0 +1,223 @@
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+.footer-logo-text .logo-web {
+  display: block;
+
+  margin-bottom: 17.5px;
+  text-align: center;
+}
+.logo-footer-studio {
+  color: var(--cloud, #f4f4fd);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-text {
+  color: var(--cloud, #f4f4fd);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  max-width: 264px;
+}
+.social-media {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.link-social-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.media-icon-svg {
+  fill: #f4f4fd;
+}
+.link-social-svg:hover,
+.link-social-svg:focus {
+  background-color: #404bbf;
+}
+.link-social-svg:hover,
+.link-social-svg:focus {
+  background-color: #31d0aa;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  align-items: center;
+}
+.svg-footer-list {
+  display: flex;
+  gap: 16px;
+}
+.subscribe-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  color: var(--white, #fff);
+}
+.button-subscribe {
+  min-width: 165px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background: var(--iris, #4d5ae5);
+  color: var(--white, #fff);
+  text-align: center;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+.input-email {
+  background: var(--navyblue, #2e2f42);
+  border-radius: 4px;
+  border: 1px solid var(--white, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 264px;
+  height: 40px;
+  color: var(--white, #fff);
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.input-email::placeholder {
+  color: var(--white, #fff);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  padding-top: 8px;
+  padding-left: 16px;
+}
+.frame-svg {
+  fill: white;
+  margin-left: 16px;
+}
+.link-social-svg:hover,
+.link-social-svg:focus {
+  background-color: #404bbf;
+}
+.link-social-svg:hover,
+.link-social-svg:focus {
+  background-color: #31d0aa;
+}
+
+@media screen and (min-width: 320px) {
+  .subscribe-text {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .form-email {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    padding-left: 108px;
+    align-items: baseline;
+  }
+  .form-email {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .subscribe-text {
+    text-align: start;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .footer-container {
+    padding-left: 15px;
+    gap: 0;
+  }
+  .footer-logo-text {
+    margin-right: 120px;
+  }
+  .footer-logo-text {
+    margin-right: 120px;
+  }
+  .footer-social-media {
+    margin-right: 65px;
+  }
+}
+
+/* footer */
+/* .footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+
+
+
+
+
+
+.svg-footer-list {
+  display: flex;
+  gap: 16px;
+}
+
+
+
+.footer-logo-text {
+  margin-right: 120px;
+}
+
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin-left: 80px;
+}
+
+
+.form-email {
+  display: flex;
+  gap: 24px;
+}
+*/

@@ -1,0 +1,117 @@
+@media screen and (max-width: 768px) {
+  .list-values {
+    display: flex;
+
+    flex-direction: column;
+    gap: 72px;
+
+    min-width: 288px;
+  }
+}
+@media screen and (min-width: 320px) {
+  .title-values {
+    color: var(--NAVY-BLUE, #2e2f42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+  .box-svg {
+    display: none;
+  }
+  .section-title {
+    color: #2e2f42;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+  }
+  .item-values .text-one {
+    color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+  .list-values {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+
+    max-width: 768px;
+  }
+
+  .item-values {
+    width: calc((100% - 24px) / 2);
+  }
+}
+@media screen and (min-width: 1158px) {
+  .section-title {
+    color: #2e2f42;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+  }
+  .item-values .text-one {
+    color: var(--slate, #434455);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+  }
+  .title-values {
+    color: #2e2f42;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+
+  .list-values {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-content: center;
+  }
+  .item-values {
+    width: calc((100% - 72px) / 4);
+  }
+  .values-svg {
+    width: 64px;
+    height: 64px;
+  }
+  .box-svg {
+    border-radius: 4px;
+    border: 1px solid var(--lightslate, #8e8f99);
+    background: var(--cloud, #f4f4fd);
+    width: 264px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+}

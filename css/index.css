@@ -1,0 +1,16 @@
+/* UTILS */
+@import "./utils/visually-hidden.css";
+
+/* BASE */
+@import "./base/common.css";
+@import "./base/container.css";
+@import "./base/section.css";
+
+/* LAYOUT */
+@import "./layout/header.css";
+@import "./layout/section-one.css";
+@import "./layout/values.css";
+@import "./layout/our-team.css";
+@import "./layout/portfolio.css";
+@import "./layout/footer.css";
+@import "./layout/form.css";

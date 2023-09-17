@@ -19,6 +19,7 @@
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    margin-bottom: 8px;
   }
   .box-svg {
     display: none;
@@ -87,7 +88,6 @@
     line-height: 24px;
     letter-spacing: 0.4px;
     line-height: 24px;
-    margin-bottom: 8px;
   }
 
   .list-values {

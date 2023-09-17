@@ -21,8 +21,8 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   font-family: "Roboto", sans-serif;
   margin: 0 auto;
 
@@ -50,7 +50,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     max-width: 220px;
     margin: 0 auto;
@@ -90,7 +90,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
     max-width: 496px;
     margin: auto;
     text-align: center;

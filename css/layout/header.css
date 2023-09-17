@@ -3,6 +3,27 @@
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+.logo-web {
+  font-family: "Raleway", sans-serif;
+  color: var(--iris, #4d5ae5);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 0;
+}
+.logo-studio {
+  font-family: "Raleway", sans-serif;
+  color: var(--navyblue, #2e2f42);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 
 @media screen and (max-width: 767px) {
   .nav-list {
@@ -11,27 +32,7 @@
   .address-list {
     display: none;
   }
-  .logo-web {
-    font-family: "Raleway", sans-serif;
-    color: var(--iris, #4d5ae5);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    padding: 0;
-  }
-  .logo-studio {
-    font-family: "Raleway", sans-serif;
-    color: var(--navyblue, #2e2f42);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-  }
+
   .header {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -101,7 +102,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
   }
   .menu-nav-mob:hover,
@@ -138,27 +139,9 @@
     display: none;
   }
   .logo-web {
-    font-family: "Raleway", sans-serif;
-    color: var(--iris, #4d5ae5);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    padding-bottom: 0;
     margin-right: 120px;
   }
-  .logo-studio {
-    font-family: "Raleway", sans-serif;
-    color: var(--navyblue, #2e2f42);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-  }
+
   .header-container {
     display: flex;
     align-items: center;

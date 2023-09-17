@@ -40,7 +40,7 @@
 
 @media screen and (max-width: 768px) {
   .section-one {
-    padding: 72px 16px;
+    padding: 72px 0;
   }
   .page-title {
     color: var(--WHITE, #fff);
@@ -53,6 +53,7 @@
     letter-spacing: 0.72px;
     text-transform: capitalize;
     max-width: 220px;
+    margin: 0 auto;
   }
   .button-text {
     margin-top: 72px;

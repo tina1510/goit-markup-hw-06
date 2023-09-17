@@ -44,6 +44,7 @@
     padding: 0;
     width: 24px;
     height: 24px;
+    margin-left: auto;
   }
   .nav-menu-svg {
     fill: #2f2f37;

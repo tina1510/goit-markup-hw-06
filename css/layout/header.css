@@ -49,11 +49,11 @@
   .nav-menu-svg {
     fill: #2f2f37;
   }
-  /* .header-container {
+  .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  } */
+  }
   .mobile-menu {
     position: fixed;
     left: 0;

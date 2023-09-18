@@ -158,13 +158,20 @@
     flex-wrap: wrap;
     column-gap: 24px;
     padding-left: 108px;
+    /* max-width: 550px; */
     align-items: baseline;
+  }
+  .social-media {
+    text-align: start;
   }
   .form-email {
     flex-direction: row;
     gap: 24px;
   }
   .subscribe-text {
+    text-align: start;
+  }
+  .footer-logo-text .logo-web {
     text-align: start;
   }
 }
